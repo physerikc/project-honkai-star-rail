@@ -15,6 +15,13 @@
 
 <body>
     <nav class="navigation">
+
+        <audio preload="auto" autoplay controls>
+            <source src="src/audios/sond-mp3.mp3" type="audio/mpeg">
+            <source src="src/audios/sond-ogg.ogg" type="audio/ogg">
+            <source src="src/audios/sond-wav.wav" type="audio/wav">
+        </audio>
+
         <div class="logo"><img src="src/images/logo.png" alt="logo"></div>
         
         <div class="nav-list">
@@ -36,18 +43,6 @@
 
     <main>
         <div class="info">
-            <div class="arrow">
-
-                <div class="line"><img src="src/images/line.png" alt="line"></div>
-    
-                <div class="left">
-                    <button><img src="src/images/arrow-left.png" alt="left arrow"></button>
-                </div>
-
-                <div class="right">
-                    <button><img src="src/images/arrow-right.png" alt="right arrow"></button>
-                </div>
-            </div>
         
             <ul>
                 <li><button><img src="src/images/fuxuan-face.png" alt="img first button"></button><h3>Fu Xuan</h3></li>
@@ -56,12 +51,29 @@
             </ul>
 
             <div class="discriptions">
-                <div class="title">
-                    <h2>DISCRIPTION</h2>
-                    <img src="src/images/jingliu-chibi.png" alt="chibi do character">
+                <div class="texts">
+                    <div class="name-element">
+                        <div class="img-element">
+                            <img class="ice-icon" src="src/images/ice.png" alt="">
+                        </div>
+                        <h2>Jingliu</h2>
+                    </div>
+                    <p>Uma das heroínas lendárias do Quinteto das Nuvens, conhecida como "Clarão Transcendente".<br><br> Após superar os conceitos mortais de vitória, ela escolheu seguir um caminho diferente para obter o poder de matar deuses.<br><br> Depois disso, uma mestre da espada do Luofu foi apagada dos registros do Xianzhou, e uma traidora apagada dos anuários foi adicionada.</p>
                 </div>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis et sint sit ipsam est amet exercitationem, doloremque maiores quo, aspernatur sequi earum! Aut, fugiat voluptatem. Deserunt molestiae mollitia eaque modi?</p>
+                <div class="icons">
+                    <img class="dest-icon" src="src/images/dest2.png" alt="simbolo caminho">
+
+                    <video preload="auto" autoplay controls loop muted poster="src/videos/img-video.png">
+                        <source src="src/videos/jingliu-trailer-corte.mp4" type="video/mp4">
+                        <object>
+                          <embed src="src/videos/jingliu-trailer-corte.mp4" type="application/x-shockwave-flash" 
+                          allowfullscreen="false" allowscriptaccess="always">  		
+                        </object>
+                        Formato não suportado  
+                    </video>
+                </div>
+                
             </div>
         </div>
         
