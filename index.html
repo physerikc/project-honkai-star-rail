@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="src/css/reset.css">
-<link rel="stylesheet" href="src/css/navigation.css">
-<link rel="stylesheet" href="src/css/main.css">
-<link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/navigation.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/footer.css">
 
-    <title>StarRail project2</title>
+    <link rel="shortcut icon" type="imagex/png" href="src/images/logo.png">
+    <title>project-honkai-star-rail</title>
 </head>
 
 <body>
     <nav class="navigation">
 
-        <audio preload="auto" autoplay controls>
+        <audio preload="auto" autoplay controls loop>
             <source src="src/audios/sond-mp3.mp3" type="audio/mpeg">
             <source src="src/audios/sond-ogg.ogg" type="audio/ogg">
             <source src="src/audios/sond-wav.wav" type="audio/wav">
@@ -25,66 +26,109 @@
         <div class="logo"><img src="src/images/logo.png" alt="logo"></div>
         
         <div class="nav-list">
-            <div><a href="#"><div class="nav-item">Página Inicial</div></a></div>
+            <div><a href="#"><div class="nav-item"><h3>Página Inicial</h3></div></a></div>
 
-            <div><a href="#"><div class="nav-item">Personagens</div></a></div>
+            <div><a href="#"><div class="nav-item"><h3>Personagens</h3></div></a></div>
 
-            <div><a href="#"><div class="nav-item">Mundos</div></a></div>
+            <div><a href="#"><div class="nav-item"><h3>Mundos</h3></div></a></div>
 
-            <div><a href="#"><div class="nav-item">Outros</div></a></div>
+            <div><a href="#"><div class="nav-item"><h3>Outros</h3></div></a></div>
         </div>
 
         <div class="config">
-            <div><a href=""><div class="nav-item">Linguagem</div></a></div>
+            <div><a href=""><div class="nav-item"><h3>Linguagem</h3></div></a></div>
 
-            <div><a href=""><div class="nav-item">Tema</div></a></div>
+            <div><a href=""><div class="nav-item"><h3>Tema</h3></div></a></div>
         </div>
     </nav>
 
-    <main>
-        <div class="info">
-        
-            <ul>
-                <li><button><img src="src/images/fuxuan-face.png" alt="img first button"></button><h3>Fu Xuan</h3></li>
-                <li><button><img src="src/images/jingliu-face.png" alt="img second button"></button><h3>Jingliu</h3></li>
-                <li><button><img src="src/images/topaz-face.png" alt="img third button"></button><h3>Topaz & Numby</h3></li>
-            </ul>
-
-            <div class="discriptions">
-                <div class="texts">
-                    <div class="name-element">
-                        <div class="img-element">
-                            <img class="ice-icon" src="src/images/ice.png" alt="">
-                        </div>
-                        <h2>Jingliu</h2>
-                    </div>
-                    <p>Uma das heroínas lendárias do Quinteto das Nuvens, conhecida como "Clarão Transcendente".<br><br> Após superar os conceitos mortais de vitória, ela escolheu seguir um caminho diferente para obter o poder de matar deuses.<br><br> Depois disso, uma mestre da espada do Luofu foi apagada dos registros do Xianzhou, e uma traidora apagada dos anuários foi adicionada.</p>
+    <main class="characters">
+        <div class="character selected">
+            <img src="src/images/character-fuxuan.png" alt="imagem da fuxuan">
+            <div class="content">
+                <div class="element-name">
+                    <img src="src/images/quant.png" alt="element">
+                    <h2>Fu Xuan</h3>
                 </div>
-
-                <div class="icons">
-                    <img class="dest-icon" src="src/images/dest2.png" alt="simbolo caminho">
-
-                    <video preload="auto" autoplay controls loop muted poster="src/videos/img-video.png">
-                        <source src="src/videos/jingliu-trailer-corte.mp4" type="video/mp4">
-                        <object>
-                          <embed src="src/videos/jingliu-trailer-corte.mp4" type="application/x-shockwave-flash" 
-                          allowfullscreen="false" allowscriptaccess="always">  		
-                        </object>
-                        Formato não suportado  
+    
+                <div class="text">
+                    <p>A chefe da Comissão de Divinação do Luofu do Xianzhou e uma sábia confiante e sensata.</p>
+                    <p>Usando seu terceiro olho e a Matriz de Presciência, Fu Xuan calcula as rotas de navegação do Xianzhou e prevê a sorte de eventos futuros. Ela acredita piamente que tudo que ela faz é a "melhor solução" para qualquer situação.</p>
+                    <p>Fu Xuan está esperando a prometida "abdicação" do general. Contudo, esse dia ainda parece... bem distante.</p>
+                </div>
+    
+                <div class="video">
+                    <video preload="auto" autoplay controls loop muted poster="src/videos/fuxuan-trailer-corte.mp4">
+                    <source src="src/videos/fuxuan-trailer-corte.mp4" type="video/mp4">
+                    <object>
+                        <embed src="src/videos/fuxuan-trailer-corte.mp4" type="application/x-shockwave-flash" 
+                        allowfullscreen="false" allowscriptaccess="always">  		
+                    </object>
                     </video>
                 </div>
-                
             </div>
         </div>
-        
+
         <div class="character">
-            <img src="src/images/character-jingliu.png" alt="banner-character">
+            <img src="src/images/character-jingliu.png" alt="imagem da jingliy">
+
+            <div class="content">
+                <div class="element-name">
+                    <img src="src/images/ice.png" alt="element">
+                    <h2>Jingliu</h3>
+                </div>
+    
+                <div class="text">
+                    <p>Uma das heroínas lendárias do Quinteto das Nuvens, conhecida como "Clarão Transcendente".</p>
+                    <p>Após superar os conceitos mortais de vitória, ela escolheu seguir um caminho diferente para obter o poder de matar deuses.</p>
+                    <p>Depois disso, uma mestre da espada do Luofu foi apagada dos registros do Xianzhou, e uma traidora apagada dos anuários foi adicionada.</p>
+                </div>
+    
+                <div class="video">
+                    <video preload="auto" autoplay controls loop muted poster="src/videos/jingliu-trailer-corte.mp4">
+                    <source src="src/videos/jingliu-trailer-corte.mp4" type="video/mp4">
+                    <object>
+                        <embed src="src/videos/jingliu-trailer-corte.mp4" type="application/x-shockwave-flash" 
+                        allowfullscreen="false" allowscriptaccess="always">  		
+                    </object>
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <div class="character">
+            <img src="src/images/character-topaz.png" alt="imagem da topaz">
+            <div class="content">
+                <div class="element-name">
+                    <img src="src/images/fire.png" alt="element">
+                    <h2>Topaz & Numby</h3>
+                </div>
+    
+                <div class="text">
+                    <p>Topaz, gerente do Departamento de Investimento Estratégico da Corporação da Paz Interastral, liderando a equipe do Grupo de Coleta de Dívidas Especiais.</p>
+                    <p>Topaz é membro dos Dez Corações de Pedra desde jovem, sendo sua pedra angular o "topázio da cobrança de dívidas".</p>
+                    <p>Seu companheiro, um Cofrinho Dimensional chamado Dinheirinho, consegue farejar onde está localizada a "riqueza" e pode realizar até mesmo trabalhos envolvendo segurança, cobrança de dívidas e ciências atuariais.</p>
+                    <p>Juntos, eles viajam pelo cosmos, lidando com várias disputas de dívidas e responsabilidades que afetam negativamente o desenvolvimento dos negócios da CPI.</p>
+                </div>
+    
+                <div class="video">
+                    <video preload="auto" autoplay controls loop muted poster="src/videos/topaz-trailer-corte.mp4">
+                    <source src="src/videos/topaz-trailer-corte.mp4" type="video/mp4">
+                    <object>
+                        <embed src="src/videos/topaz-trailer-corte.mp4" type="application/x-shockwave-flash" 
+                        allowfullscreen="false" allowscriptaccess="always">  		
+                    </object>
+                    </video>
+                </div>
+            </div>
         </div>
     </main>
 
-    <footer>
-        
-    </footer>
+    <ul class="buttons">
+        <li><button class="button selected"><img src="src/images/fuxuan-face.png" alt="img first button"></button><h3>Fu Xuan</h3></li>
+        <li><button class="button"><img src="src/images/jingliu-face.png" alt="img second button"></button><h3>Jingliu</h3></li>
+        <li><button class="button"><img src="src/images/topaz-face.png" alt="img third button"></button><h3>Topaz & Numby</h3></li>
+    </ul>
 
     <script src="script.js"></script>
 </body>
