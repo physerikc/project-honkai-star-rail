@@ -16,4 +16,6 @@ main.css needed: <br>
   &emsp; transition effect in chatacters <br>
   &emsp; more buttons and characters <br>
   &emsp; vertical line in the ul of the buttons and arrows <br>
+  &emsp; pause video/audio when click in the button <br>
+  &emsp; add characters' habilities (videos and buttons)
  
