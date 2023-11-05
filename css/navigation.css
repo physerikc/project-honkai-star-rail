@@ -1,0 +1,54 @@
+.navigation {
+    background-color: black;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    position: fixed;
+    height: 56px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+    z-index: 1;
+}
+
+.navigation .nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    max-width: 50%;
+    margin-right: 60px;
+    gap: 80px;
+}
+
+.navigation .nav-item {
+    color: white;
+}
+
+.navigation .logo {
+    margin-left: -10rem;
+}
+
+.navigation .logo img {
+    top: 0;
+    left: 30px;
+    margin-top: -29px;
+
+    width: 200px;
+
+    object-fit: cover;
+}
+
+.navigation .config {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+}
+
